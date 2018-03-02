@@ -15,7 +15,7 @@ def run_guessing_game
     break
   
   when rando
-    puts "You guess the correct number!"   
+    puts "You guessed the correct number!"   
   
   else
     puts "The computer guessed #{rando}!"
