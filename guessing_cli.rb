@@ -9,6 +9,8 @@ def run_guessing_game
   command = gets.chomp  
   case command 
   
+  
+  
   when rando
     puts "You guess the correct number!"   
   
