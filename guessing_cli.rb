@@ -18,7 +18,7 @@ def run_guessing_game
     puts "You guess the correct number!"   
   
   else
-    puts "The computer guessed #{random}"
+    puts "The computer guessed #{rando}"
 
   end  
   end  
