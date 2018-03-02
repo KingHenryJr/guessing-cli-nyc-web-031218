@@ -11,6 +11,7 @@ def run_guessing_game
   case command 
   
   when "exit"
+    puts "Goodbye!"
     break
   
   when rando
