@@ -4,8 +4,6 @@ def run_guessing_game
   rando = rand(1...6)
   
   while command 
-  
-  
   puts "Guess a number between 1 and 6."
   
   command = gets.chomp  
