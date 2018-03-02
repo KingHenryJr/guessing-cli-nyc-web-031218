@@ -7,8 +7,14 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   
   command = gets.chomp  
+  case command 
+  when "exit"
+    
   
-  if 
+  
+  
+  if command == rando 
+  puts "The computer "
     
     
   
