@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  command = 0
+  command = ""
   rando = rand(1...6)
   
   while command =! rando
