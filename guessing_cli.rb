@@ -9,19 +9,15 @@ def run_guessing_game
   command = gets.chomp  
   case command 
   
-  
+  when "exit"
+    break
   
   when rando
     puts "You guess the correct number!"   
   
-  when "exit"
-    break
-  
-  
-  
-  if command == rando 
-  puts "The computer "
-    
+  else
+    puts "The computer guessed #{random}"
+
     
   
   
