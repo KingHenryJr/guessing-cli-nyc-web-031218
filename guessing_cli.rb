@@ -9,7 +9,7 @@ def run_guessing_game
   case command
   
   
-  
+  rand(1...6)
   
   
   
